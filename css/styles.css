@@ -1,0 +1,101 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-size: 18px;
+  font-family: 'Outfit', sans-serif;
+  width: 100%;
+}
+
+.box-image {
+   border-radius: 3%;
+   margin: auto;
+   width: 100%;
+}
+
+.container {
+  border-radius: 3%;
+  background-color: hsl(216, 50%, 16%);
+  line-height: 1;
+  padding: 20px;
+  margin: 100px auto;
+  min-width: 300px;
+  width: 25%;
+}
+
+.count-days {
+  color: hsl(215, 18%, 69%);;
+}
+
+.clock-svg {
+  padding-top: 20px;
+  padding-right: 10px;
+}
+
+.creator-text-sub {
+  color: hsl(215, 18%, 69%);
+}
+
+.creator-text-desc {
+  color: hsl(0, 0%, 100%);
+  padding-left: 20px;
+}
+
+.days-value {
+  display: flex;
+  flex-direction: row;
+  padding-left: auto;
+  padding-right: auto;
+  position: relative;
+  width: 78%;
+}
+
+.etherium-value {
+  display: flex;
+  flex-direction: row;
+  padding-right: auto;
+  width: 155%;
+}
+
+.etherium-svg {
+  padding-top: 20px;
+  padding-right: 10px;
+}
+
+.eth-coin-text {
+  color: hsl(178, 100%, 50%);
+}
+
+.footer-container {
+  display: flex;
+  padding-top: 10px;
+}
+
+hr {
+  border: groove hsl(210, 40%, 36%) 3px;
+  border-bottom: 0;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.human-image {
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+}
+
+.middle-container {
+  display: flex;
+  position: relative;
+}
+
+.text-desc {
+  color: hsl(215, 18%, 69%);;
+}
+
+.text-title {
+  color: hsl(0, 0%, 100%);
+}
+
+.top-container {
+  line-height: 1;
+}
